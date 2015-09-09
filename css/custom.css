@@ -1,0 +1,106 @@
+@import "bootstrap.css";
+@import "bootstrap-combobox.css";
+/*@import "bootstrap-default.css";*/
+@import "bootstrap-spacelab.css";
+@import "font-awesome.css";
+@import "summernote.css";
+/*@import "polaris.css";*/
+@import "blue.css";
+
+
+
+/* Customize bootstrap navbar */
+
+.navbar {
+	background-image: linear-gradient(to bottom, #720, #422);
+	border: none !important;
+	border-radius: 0px;
+}
+
+.navbar a {
+	display: inline-block;
+	padding-bottom: 13px !important;
+	color: white !important;
+}
+
+.navbar a:hover {
+	background-color: red !important;
+	color: lightgray !important;
+}
+
+.navbar a:visited {
+	background-color: red !important;
+}
+
+.nav-link  a {
+	padding-bottom: 15px !important;
+}
+
+.navbar .dropdown-menu a {
+	padding-bottom: 3px !important;
+	color: black !important;
+}
+
+.navbar .dropdown-menu a:hover {
+	color: lightgray !important;
+}
+
+.nav-logo {
+	padding: 0px !important;
+	margin: 0px !important;
+	height: 50px;
+}
+
+.nav-logo img {
+	height: 48px;
+	vertical-align: top;
+	margin-right: 5px;
+}
+
+.nav-logo .text {
+	display: inline-block;
+	padding-top: 16px !important;
+	margin-bottom: 0px !important;
+	margin-right: 5px;
+}
+
+.nav-logo .nav-logo-title {
+	font-size: 20pt;
+	padding-top: 6px !important;
+	padding-bottom: 0px !important;
+	padding-right: 5px !important;
+	margin-bottom: 0px !important;
+	display: inline-block !important;
+}
+
+.navbar-toggle {
+	color: white;
+	border: 1px solid black !important;
+	background-color: #720 !important;
+}
+
+.navbar-toggle:hover {
+	background-color: red !important;
+}
+.navbar-toggle:active {
+	background-color: red !important;
+}
+.navbar-toggle:visited {
+	background-color: red !important;
+}
+
+@media (max-width:768px) {
+	.navbar .dropdown-menu a {
+		color: white !important;
+	}
+}
+
+/* A few other tweaks */
+
+.fa-close {
+	cursor: pointer;
+}
+
+.help-block {
+	color: red;
+}
