@@ -18,7 +18,7 @@ I have included a variety of Bootstrap plugins in this project, but if you don't
 initialization code from `./js/plugins.js` in addition to removing the `<script>` elements.  I have included a few of my own
 jQuery plugins in `./js/plugins.js`, so I would suggest taking a look at that file regardless! :wink:
 
-##`page.php`
+##page.php
 Many of you are probably wondering what that is all about.  I have found that it is easier to have all my standard HTML
 (header, navigation links, footer, etc.) in one file so I don't have to repeat it all the time.  That's what this PHP
 script is for.  It has three variables embedded in the text it prints out: `$title`, `$script`, and `$body` which correspond
